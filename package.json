@@ -1,13 +1,11 @@
 {
   "name": "random-bytes",
   "version": "1.0.0",
-  "description": "",
+  "description": "Shows random character strings in a browser window",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "scripts": {},
+  "author": "Tyler Waters <tyler.waters@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
     "eslint": "^7.24.0",
     "eslint-config-prettier": "^8.1.0",
