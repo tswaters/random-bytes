@@ -7,5 +7,31 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.24.0",
+    "eslint-config-prettier": "^8.1.0",
+    "prettier": "^2.2.1"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "es6": true
+    },
+    "parserOptions": {
+      "sourceType": "script",
+      "ecmaVersion": 2020
+    },
+    "extends": [
+      "eslint:recommended",
+      "eslint-config-prettier"
+    ],
+    "rules": {
+      "no-unused-vars": "warn"
+    }
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  }
 }
